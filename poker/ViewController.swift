@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var deck = PlayingCardDeck()
+    
+    @IBOutlet var handCardPlayerOne: [PlayingCardView]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let card = deck.draw()
     }
 
     override func didReceiveMemoryWarning() {
