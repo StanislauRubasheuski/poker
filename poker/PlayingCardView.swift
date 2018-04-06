@@ -88,7 +88,7 @@ class PlayingCardView: UIView {
 
 extension PlayingCardView {
     private struct SizeRatio {
-        static let cornerFontSizeToBoundsHeight: CGFloat = 0.4
+        static let cornerFontSizeToBoundsHeight: CGFloat = 0.1
         static let cornerRadiusToBoundsHeight: CGFloat = 0.06
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
         static let faceCardImageSizeToBoundsSize: CGFloat = 0.75
