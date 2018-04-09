@@ -16,17 +16,25 @@ struct PlayingCard: CustomStringConvertible {
     
     var suit: Suit
     var rank: Rank
+    var isFaceUp = false
     
-    enum Suit: String, CustomStringConvertible {
+    enum Suit: Int, CustomStringConvertible {
         
-        case spades = "♠"
-        case hearts = "❤️"
-        case diamonds = "♦"
-        case clubs = "♣"
+        case hearts = 0
+        case clubs = 1
+        case diamonds = 2
+        case spades = 3
         
-        static var all = [Suit.spades, .hearts, .diamonds, .clubs]
+        static var all = [Suit.hearts, .clubs, .diamonds, .spades]
         
-        var description: String {return rawValue}
+        var description: String {
+            switch self {
+            case .hearts: return "❤️"
+            case .clubs: return "♣️"
+            case .diamonds: return "♦️"
+            case .spades: return "♠️"
+            }
+        }
     }
     
     enum Rank: CustomStringConvertible {
