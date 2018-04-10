@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84DA94E7207BAB65003E0D29 /* CombinationAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA94E6207BAB65003E0D29 /* CombinationAnalysis.swift */; };
+		84DA94E9207BB2F8003E0D29 /* DrawsAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA94E8207BB2F8003E0D29 /* DrawsAnalysis.swift */; };
 		F4F54CF220758BF7002C7756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F54CF120758BF7002C7756 /* AppDelegate.swift */; };
 		F4F54CF420758BF7002C7756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F54CF320758BF7002C7756 /* ViewController.swift */; };
 		F4F54CF720758BF7002C7756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F54CF520758BF7002C7756 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		84DA94E6207BAB65003E0D29 /* CombinationAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationAnalysis.swift; sourceTree = "<group>"; };
+		84DA94E8207BB2F8003E0D29 /* DrawsAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawsAnalysis.swift; sourceTree = "<group>"; };
 		F4F54CEE20758BF7002C7756 /* poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F54CF120758BF7002C7756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F54CF320758BF7002C7756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				84DA94E6207BAB65003E0D29 /* CombinationAnalysis.swift */,
+				84DA94E8207BB2F8003E0D29 /* DrawsAnalysis.swift */,
 				F4F54CF320758BF7002C7756 /* ViewController.swift */,
 				F4F54CF520758BF7002C7756 /* Main.storyboard */,
 				F4F54D0420758CD6002C7756 /* PlayingCard.swift */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA94E9207BB2F8003E0D29 /* DrawsAnalysis.swift in Sources */,
 				F4F54CF420758BF7002C7756 /* ViewController.swift in Sources */,
 				F4F54D0720758D6B002C7756 /* PlayingCardDeck.swift in Sources */,
 				F4F54D0520758CD6002C7756 /* PlayingCard.swift in Sources */,
