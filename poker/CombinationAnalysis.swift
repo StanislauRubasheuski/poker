@@ -101,6 +101,7 @@ class CombinationAnalysis {
                 countOfCoincidence += 2
             }
             
+            //Тут недочет!!!! Исправить когда-нибудь!!!
             if countOfMatchedRanks[0] >= 1 { // Проверка на стрит с Тузом
                 if countOfMatchedRanks[1] >= 1 && countOfMatchedRanks[2] >= 1 && countOfMatchedRanks[3] >= 1
                     && countOfMatchedRanks[4] >= 1 {
